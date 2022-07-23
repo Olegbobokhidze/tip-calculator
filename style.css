@@ -1,1 +1,238 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #c5e4e7;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  width: 100vw;
+  overflow-x: hidden;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header p {
+  font-size: 36px;
+  margin: 30px;
+  color: #3d6666;
+}
+main {
+  background-color: white;
+  box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
+  border-radius: 25px 25px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.percents {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  column-gap: 16.56px;
+  row-gap: 16px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.box-percent {
+  background-color: #00474b;
+  width: 146px;
+  height: 48px;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.custom {
+  width: 146px;
+  height: 48px;
+  border: none;
+  background-color: #f3f9fa;
+  text-align: right;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #00474b;
+}
+.custom::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.value::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.value2::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.value {
+  width: 311px;
+  height: 48px;
+  border: none;
+  background-color: #f3f9fa;
+  text-align: right;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #00474b;
+  border-radius: 5px;
+  background-image: url(https://cdn.glitch.global/e036e53e-0300-46f4-94fc-646f007bd143/icon-dollar.svg?v=1658601934474);
+  background-repeat: no-repeat;
+  background-position: 3%, 50%;
+  background-size: auto;
+}
+.value2 {
+  width: 311px;
+  height: 48px;
+  border: none;
+  background-color: #f3f9fa;
+  text-align: right;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #00474b;
+  border-radius: 5px;
+  background-image: url(https://cdn.glitch.global/e036e53e-0300-46f4-94fc-646f007bd143/icon-person.svg?v=1658601952518);
+  background-repeat: no-repeat;
+  background-position: 3%, 50%;
+  background-size: auto;
+}
+.footer-first {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+h1 {
+  text-align: right;
+  color: #26c2ae;
+}
+.white-p {
+  color: white;
+}
+footer {
+  background-color: #00474b;
+  width: 327px;
+  height: 257px;
+  border-radius: 15px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 24px;
+}
+.reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 281px;
+  height: 48px;
+  margin-top: 50px;
+  background-color: #26c2ae;
+  border-radius: 5px;
+}
+h4 {
+  color: #7f9d9f;
+}
+h2 {
+  color: #00474b;
+  font-size: 20px;
+}
+.main-first h3 {
+  margin-top: 35px;
+  color: #5e7a7d;
+  font-weight: 700;
+}
+.two-h3 {
+  display: flex;
+  width: 311px;
+  margin-bottom: 6px;
+}
+.error {
+  display: none;
+}
+.true {
+  margin-right: 45px;
+}
+/* Hover */
+.box-percent:hover {
+  background-color: #26c2ae;
+  color: #00474b;
+  cursor: pointer;
+}
+.custom:hover {
+  border: 2px solid #26c2ae;
+}
+.value:hover {
+  border: 2px solid #26c2ae;
+}
+.value2:hover {
+  border: 2px solid #26c2ae;
+}
+.reset:hover {
+  background-color: #9fe8df;
+  cursor: pointer;
+}
+@media screen and (min-width: 1440px) {
+  body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  main {
+    flex-direction: row;
+    width: 920px;
+    height: 481px;
+    border-radius: 25px;
+    margin-top: 100px;
+  }
+  header {
+    margin-top: 150px;
+  }
+  footer {
+    width: 413px;
+    height: 417px;
+    margin-left: 50px;
+  }
+  .percents {
+    grid-template-columns: auto auto auto;
+  }
+  .box-percent {
+    width: 117px;
+  }
+  .custom {
+    width: 117px;
+  }
+  .value {
+    width: 379px;
+  }
+  .value2 {
+    width: 379px;
+    margin-bottom: 35px;
+  }
+  .two-h3 {
+    width: 379px;
+  }
+  .reset {
+    width: 333px;
+    margin-left: 16px;
+    margin-top: 130px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .tip-total {
+    padding-top: 14px;
+    margin-bottom: 30px;
+  }
+}
