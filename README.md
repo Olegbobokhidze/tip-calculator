@@ -1,4 +1,4 @@
-# Frontend Mentor - this is tip calculator
+# Tip Calculator
 
 ## Table of contents
 
