@@ -17,15 +17,13 @@ This is a tip calculator
 
 ### Screenshot
 
-![Screenshot (231)](https://user-images.githubusercontent.com/105369627/175830230-31f13792-40f5-41f4-820f-9e3ea688eda7.png)
+![Screenshot (231)](https://user-images.githubusercontent.com/105369627/180619535-e4886599-0d79-45a2-bdcd-75b8e891205d.jpg)
 
-![Screenshot (235)](https://user-images.githubusercontent.com/105369627/175830170-d1522b1b-3c57-415f-923b-3eea58a21e81.png)
-![Screenshot (238)](https://user-images.githubusercontent.com/105369627/175830174-7c16b29e-500a-4f22-b84e-9ac868b7ca84.png)
 
 
 ### Links
 
-- Live Site URL: [Elearning page](https://tip-calculator-js-1.glitch.me/)
+- Live Site URL: [Tip Calculator](https://tip-calculator-js-1.glitch.me/)
 
 ## My process
 
@@ -35,7 +33,7 @@ This is a tip calculator
 - CSS custom properties
 - Flexbox
 - Grid
-- javascript
+- Javascript
 
 ### What I learned
 
