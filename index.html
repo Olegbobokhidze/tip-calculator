@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://cdn.glitch.global/e036e53e-0300-46f4-94fc-646f007bd143/favicon-32x32.png?v=1658601922851"
+    />
+    <link rel="stylesheet" href="style.css"
+  </head>
+  <body>
+    <header>
+      <p>
+        S P L I <br />
+        T T E R
+      </p>
+    </header>
+    <main>
+      <div class="main-first">
+        <div class="main-first-tip">
+          <h3>Bill</h3>
+          <input class="value" id="bill-amount" type="number" placeholder="0" />
+          <h3>Select Tip %</h3>
+        </div>
+        <div class="percents">
+          <button class="box-percent first">5%</button>
+          <button class="box-percent second">10%</button>
+          <button class="box-percent third">15%</button>
+          <button class="box-percent fourth">25%</button>
+          <button class="box-percent fifth">50%</button>
+          <input
+            class="custom"
+            id="custom-inp"
+            type="number"
+            placeholder="Custom"
+          />
+        </div>
+        <div class="two-h3">
+          <h3 class="true">Number of People</h3>
+          <h3 class="error" id="error">Can't be zero</h3>
+        </div>
+        <input
+          class="value2"
+          id="person-number"
+          type="number"
+          placeholder="0"
+        />
+      </div>
+      <footer>
+        <div class="footer-first">
+          <div class="tip-total">
+            <h3 class="white-p">Tip Amount</h3>
+            <h4>/ Person</h4>
+          </div>
+          <h1 class="tip-amount" id="tip-amount">$0.00</h1>
+        </div>
+        <div class="footer-first">
+          <div class="tip-total">
+            <h3 class="white-p">Total</h3>
+            <h4>/ person</h4>
+          </div>
+          <h1 class="total-amount" id="total-amount">$0.00</h1>
+        </div>
+        <div class="reset" id="reset">
+          <h2>RESET</h2>
+        </div>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
 
