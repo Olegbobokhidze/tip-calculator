@@ -23,7 +23,7 @@ This is a tip calculator
 
 ### Links
 
-- Live Site URL: [Tip Calculator](https://tip-calculator-js-1.glitch.me/)
+- Live Site URL: [Tip Calculator](https://olegbobokhidze.github.io/tip-calculator/)
 
 ## My process
 
@@ -41,7 +41,7 @@ This is my first javascript challenge.
 
 ### Personal development
 
-This is only start, i am not going to stop, i'll do everything to improve myself.
+This is only start, i am not going to stop :)))
 
 ## Author
 
